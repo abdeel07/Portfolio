@@ -312,7 +312,10 @@
                             To : 'abdelilahbourhou@gmail.com',
                             From : document.getElementById("email").value,
                             Subject : document.getElementById("subject").value,
-                            Body : document.getElementById("message").value
+                            Body : 
+                                "Email : " + document.getElementById("email").value + "<br>" +
+                                "Subject : " + document.getElementById("subject").value + "<br>" +
+                                "Content : " + document.getElementById("message").value
                             }).then(
                             message => alert("Message sent Successfully !")
                             );
