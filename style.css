@@ -175,7 +175,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("./images/bg1.png") no-repeat top;
+    background: url("https://ik.imagekit.io/abdeelbrh/Portfolio/bg1.png") no-repeat top;
 
     height: 100vh;
     color: #fff;
