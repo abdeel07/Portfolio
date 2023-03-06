@@ -5,6 +5,9 @@
    #nameTitle {
     color: #4a4a4a;
    }
+   #home{
+    background-position: right;
+   }
 }
 *{
     margin: 0;
@@ -173,7 +176,6 @@ section .title::after{
 .home{
     display: flex;
     background: url("https://ik.imagekit.io/abdeelbrh/Portfolio/bg1.png") no-repeat top;
-    background-position: right;
     height: 100vh;
     color: #fff;
     min-height: 500px;
