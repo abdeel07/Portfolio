@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOURHOU Abdelilah</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media/style_h.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -319,23 +319,6 @@
                         </div>
                     </form>
                 </div>
-                <script>
-                    function sendEmail(){
-                        Email.send({
-                        SecureToken : "66e26263-08e0-4d3a-8081-c19dd518bf6e",
-                        To : 'abdelilahbourhou@gmail.com',
-                        From : 'brhabdeel@gmail.com',
-                        Subject : document.getElementById("subject").value,
-                        Body : 
-                            "Name : " + document.getElementById("name").value + "<br>" +
-                            "Email : " + document.getElementById("email").value + "<br>" +
-                            "Subject : " + document.getElementById("subject").value + "<br>" +
-                            "Content : " + document.getElementById("message").value
-                        }).then(
-                            message => alert("Message sent Successfully !")
-                        );
-                    }
-                </script>
             </div>
         </div>
     </section>

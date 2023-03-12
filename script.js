@@ -72,3 +72,18 @@ $(document).ready(function(){
     });
 });
 
+function sendEmail(){
+    Email.send({
+    SecureToken : "66e26263-08e0-4d3a-8081-c19dd518bf6e",
+    To : 'abdelilahbourhou@gmail.com',
+    From : 'brhabdeel@gmail.com',
+    Subject : document.getElementById("subject").value,
+    Body : 
+        "Name : " + document.getElementById("name").value + "<br>" +
+        "Email : " + document.getElementById("email").value + "<br>" +
+        "Subject : " + document.getElementById("subject").value + "<br>" +
+        "Content : " + document.getElementById("message").value
+    }).then(
+        message => alert("Message sent Successfully !")
+    );
+}
